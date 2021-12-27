@@ -1,0 +1,39 @@
+[
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/Users/fleur/Documents/LearnVue/pages/admin/index.vue",
+    "chunkName": "pages/admin/index"
+  },
+  {
+    "name": "posts",
+    "path": "/posts",
+    "component": "/Users/fleur/Documents/LearnVue/pages/posts/index.vue",
+    "chunkName": "pages/posts/index"
+  },
+  {
+    "path": "/users",
+    "component": "/Users/fleur/Documents/LearnVue/pages/users.vue",
+    "chunkName": "pages/users",
+    "children": [
+      {
+        "name": "users",
+        "path": "",
+        "component": "/Users/fleur/Documents/LearnVue/pages/users/index.vue",
+        "chunkName": "pages/users/index"
+      },
+      {
+        "name": "users-id",
+        "path": ":id",
+        "component": "/Users/fleur/Documents/LearnVue/pages/users/_id/index.vue",
+        "chunkName": "pages/users/_id/index"
+      }
+    ]
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/fleur/Documents/LearnVue/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
